@@ -1,6 +1,7 @@
 ---
-description: Start the Pantry Pilot application
+description: Start the Pantry Pilot applicatio
 ---
+
 1. Install dependencies (if not already done)
 ```bash
 npm install
