@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Scan this QR Code</title>
+    <style>
+        body { 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            height: 100vh; 
+            background: #f0f0f0; 
+            font-family: sans-serif; 
+            flex-direction: column;
+        }
+        .card {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        h1 { margin-bottom: 20px; color: #333; }
+        p { color: #666; margin-bottom: 30px; }
+        img { width: 300px; height: 300px; mix-blend-mode: multiply; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Pantry Pilot Mobile</h1>
+        <p>Scan this code with your <strong>iPhone Camera</strong> app:</p>
+        <img src="https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=exp://xt_dja0-anonymous-8081.exp.direct" alt="QR Code" />
+        <p style="margin-top: 20px; font-size: 12px; color: #999;">Link: exp://xt_dja0-anonymous-8081.exp.direct</p>
+    </div>
+</body>
+</html>
