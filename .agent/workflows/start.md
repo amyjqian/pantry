@@ -1,5 +1,5 @@
 ---
-description: Start the Pantry Pilot applicatio
+description: Start the Pantry Pilot application
 ---
 
 1. Install dependencies (if not already done)
